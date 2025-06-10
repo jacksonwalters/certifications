@@ -1,5 +1,6 @@
 # certifications
 certifications
 
-- IBM ML + DS certs
+- ML + DS certs [IBM]
 - Security+ certification: in progress
+- Introduction to International Criminal Law Certification [Case Western Univ.]
