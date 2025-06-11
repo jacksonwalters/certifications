@@ -1,3 +1,10 @@
+CURRENT ROUTE: SEC+ --> OSCP
+
+---
+
+from Sam Walters (Sec+):
+
+"""
 These practices exams helped me pass. His Youtube is an incredible resource and can help you fill in any gaps you need.
 
 1. Practice Test with Timer to see how you do within the exam time parameters
@@ -6,3 +13,18 @@ These practices exams helped me pass. His Youtube is an incredible resource and 
 4. Set up a study plan to feel confident
 
 see: Professor Messer's CompTIA SYO-601
+"""
+
+---
+
+from Mateen Ansary (CISSP):
+
+"""
+Yeah, I would recommend reading a book or taking a course that covers the exam topics.  Also, there are “performance based questions” on the exam that may require you to securely configure a home network or have you read through logs to determine when an attack occurred and which hosts were affected, etc.  There should be web sites or courses that include/simulate those questions (they may even be the exact scenario covered on the exam).
+
+Whoa, that’s pretty sick!  I often think about going the Ethical Hacker/Pentesting route, but I’m really enjoying the web dev side of things at the moment.
+
+If you too find the Pentesting side of things interesting, it probably doesn’t hurt to get a security+ and then consider going after the OSCP (unless the OSCP also covers cyber fundamentals in depth, to which I would say just go for the OSCP instead).
+"""
+
+---
