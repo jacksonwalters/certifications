@@ -1,0 +1,48 @@
+2/29/2024:
+
+Look at the DSM-V definitions and patient data to obtain symptom-level data columns. 
+
+That is, the constellation of symptoms from the DSM-V would represent a number of categories (schizophrenic, schizoaffective, bipolar, etc.).
+
+Each patient would have symptoms (anxious, depressed, manic), and life factors (no income, no housing, no health insurance, etc.).
+
+The idea would be to then map patients into their appropriate category based on symptoms and life factors, ideally using something like PCA (principal component analysis) or t-SNE. 
+
+These are dimensionality reduction techniques and result in a 2d plot.
+
+This has been done at least once with a small dataset. Could do it again with a bigger/different dataset.
+
+---
+
+3/3/2024: Progress report, notes.
+
+I have successfully mapped the high dimensional data via t-SNE using both sklearn and the GPU accelerated cuML.
+
+I dropped columns that were not diagnostic, leaving 7. They are 
+
+*TRAUSTREFLG=Trauma- and stressor-related disorders
+*ANXIETYFLG=Anxiety disorders
+*ADHDFLG=Attention deficit/hyperactivity disorder (ADHD)
+*BIPOLARFLG=Bipolar disorders
+*DEPRESSFLG=Depressive disorders
+*SCHIZOFLG=Schizophrenia or other psychotic disorders
+*PERSONFLG=Personality disorders
+
+Since diagnoses are binary 0/1, with 7 columns that gives 2^7=128 'categories'. I simplified labeling "pure diagnoses", a zero for "no diagnosis", and one for "multi-diagnosis" yielding eight categories which can then be colored.
+
+Initial plots are promising, showing clustering among the eight categoregories, and scattering of the multi-symptom diagnoses.
+
+---
+
+Next steps could try to do a sort of prediction. That is, look at the other data, and see if you can predict which category they're going to belong to.
+
+We would basically take the remaining columns, whatever they are, and do a similar clustering. We'll have the labels available, so one can literally just see if the clusters are the same.
+
+It is possible to do correlations of those two t-SNE's as they are just two column dataframes.
+
+PAPERS:
+*https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6783390/
+
+DATA SOURCES:
+*https://www.cdc.gov/mentalhealth/data_publications/index.htm
+*https://www.datafiles.samhsa.gov

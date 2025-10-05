@@ -1,0 +1,23 @@
+IBM: https://www.coursera.org/learn/ibm-exploratory-data-analysis-for-machine-learning/
+
+*6 weeks
+*$49/mo
+
+See also:
+
+*IBM Data Analyst Professional Certificate
+*IBM Applied AI Professional Certificate
+*IBM AI Engineering Professional Certificate
+ 
+Google: https://cloud.google.com/learn/certification/machine-learning-engineer
+
+*2 year industry certification
+*proctored exam
+*requires experience with Google Cloud
+*$200
+
+MathWorks: https://matlabacademy.mathworks.com/details/mlml
+
+Machine Learning with MATLAB
+
+*free!

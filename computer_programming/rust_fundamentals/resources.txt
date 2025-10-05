@@ -1,0 +1,2 @@
+https://math.stackexchange.com/questions/1120989/what-books-do-you-recommend-on-mathematics-behind-cryptography
+https://github.com/isislovecruft/library--/tree/master/cryptography%20%26%20mathematics
