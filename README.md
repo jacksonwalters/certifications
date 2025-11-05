@@ -9,7 +9,7 @@
 - Rust Fundamentals [Duke University]
 
 ## in-progress
-- Security+: 
+- Security+ [IBM]: 
     - **status:** not yet started
     - https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst
 - Fundamentals of Quantitative Modeling [The Wharton School, Univ. of Pennsylvania]: 
