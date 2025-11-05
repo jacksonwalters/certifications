@@ -9,5 +9,9 @@
 - Rust Fundamentals [Duke University]
 
 ## in-progress
-- Security+: not yet started
-- Fundamentals of Quantitative Modeling [The Wharton School, Univ. of Pennsylvania]: not yet started
+- Security+: 
+    - **status:** not yet started
+    - https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst
+- Fundamentals of Quantitative Modeling [The Wharton School, Univ. of Pennsylvania]: 
+    - **status:** not yet started
+    - https://www.coursera.org/learn/wharton-quantitative-modeling
