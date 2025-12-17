@@ -13,5 +13,5 @@
     - **status:** not yet started
     - https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst
 - Fundamentals of Quantitative Modeling [The Wharton School, Univ. of Pennsylvania]: 
-    - **status:** not yet started
+    - **status:** started
     - https://www.coursera.org/learn/wharton-quantitative-modeling
