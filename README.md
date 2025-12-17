@@ -8,7 +8,7 @@
 - Introduction to International Criminal Law [Case Western Univ.]
 - Rust Fundamentals [Duke University]
 
-## in-progress
+## to-do
 - Security+ [IBM]: 
     - **status:** not yet started
     - https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst
